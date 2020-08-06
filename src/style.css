@@ -23,9 +23,29 @@ body{
     
     text-align: center;
     background-size: 1300px 1300px;
-    background-size: 100% 100%;
+    background-size: 100% 170%;
 } 
-fieldset{
-    background-color: rgb(214, 185, 16);
+img{
+    display:block;
+    margin:auto;
+    }
+    
+div{
+    text-align: center;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 15px;
+    min-height: 315px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px 0 rgba(90,116,148,0.3);; 
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    object-position: center;
+    size: 50px 50px;
+    background-color:transparent;
     color:black;
 }
