@@ -2,7 +2,7 @@ const validator = {
 
     isValid: function (cardNumber) {
         let carray = cardNumber.split('');
-        if (carray.length !== 16) {
+        if (carray.length >16) {
             return false;
         }
         carray.reverse();
@@ -13,7 +13,6 @@ const validator = {
                 tmp *= 2;
                 if (tmp > 9)
                 tmp -= 9;
-                
             }
             sum += tmp;
         }
