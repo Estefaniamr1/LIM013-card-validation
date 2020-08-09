@@ -1,5 +1,7 @@
+
 html{
-    text-align: center
+    text-align: center;
+    background-color:black;
 }
 h1{
     
@@ -25,11 +27,7 @@ body{
     background-size: 1300px 1300px;
     background-size: 100% 170%;
 } 
-img{
-    display:block;
-    margin:auto;
-    }
-    
+   
 #contenedor{
     text-align: center;
     background-size: cover;
