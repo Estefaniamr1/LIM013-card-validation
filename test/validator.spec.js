@@ -30,15 +30,15 @@ describe('validator', () => {
     });
 
     it('Debería retornar "############5616" para "4556364607935616"', () => {
-      // escribe aquí tu test
+      expect(validator.maskify("4556364607935616")).toBe("############5616");
     });
 
     it('Debería retornar "1" para "1"', () => {
-      // escribe aquí tu test
+      expect(validator.maskify("1")).toBe("1");
     });
 
     it('Debería retornar "######orld" para "helloworld"', () => {
-      // escribe aquí tu test
+      expect(validator.maskify("helloworld")).toBe("######orld");
     });
   });
 });

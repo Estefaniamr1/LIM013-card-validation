@@ -25,14 +25,15 @@ const validator = {
     },
     maskify: (number) => {
         var valor = ''
-        if (number.length > 4) {
+        if (number.length > 0) {
             for (let i = 0; i < number.length - 4; i++) {
                 valor = valor + '#'
             }
-            return valor + number.substring(number.length - 4, number.length)
+            return valor + number.substring(number.length - 4, number.length);
         }
     }
 }
+
 
 export default validator;
 
