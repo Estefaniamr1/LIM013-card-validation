@@ -8,7 +8,7 @@
         
     </head>
     
-    <body background="https://cdn4.vectorstock.com/i/1000x1000/75/38/flat-racks-with-clothes-on-hangers-vector-20527538.jpg">
+    <body>
     
         <h1>Un abrigo para Perú</h1>
         <h2>¡Al comprar un diseño ayudarás a la causa!</h2>

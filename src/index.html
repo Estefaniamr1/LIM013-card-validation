@@ -2,30 +2,56 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadena de favores</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body background="https://previews.123rf.com/images/undrey/undrey1607/undrey160700224/59994948-mano-acuarela-dibujada-ilustraci%C3%B3n-de-mapa-del-mundo-de-la-acuarela.jpg">
-    <h1>Cadena de favores     /     Chain of favours</h1>
-    <h2>¡Únete como Voluntario!</h2>
-    <p1> Tu aporte ayudará a la ejecución de un proyecto.</p1>
+  <div id="fondo">
+  <body>
+    <nav id="menu">
+      <ul>
+        <!-- <div class=centrar> -->
+        <li><a href="#">Inicio</a></li>
+        <li class="barra"> | </li>
+        <li><a href="#nosotros">¿Quienes somos?</a></li>
+        <li class="barra"> | </li>
+        <li><a href="#aporta">Aporta a un proyecto</a></li>
+        <li class="barra"> | </li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li class="barra"> | </li>
+        <li><a href="#uneteequipo">Se parte de nuestro equipo</a></li>
+        <li class="barra"> | </li>
+        <li><a href="#contactanos">Contáctanos</a></li>
+        <!-- </div> -->
+      </ul>
+    </nav>
+    <div id="contenedor">
+      <p id="resultado"> </p>
+      <label for="cardNumero"> <strong>NUMERO DE TARJETA</strong></label> <br/>
+      <input type="text" maxlength="16" name="numerodetarjeta" class="casilla" id="numberCard"/> <br/>
+      <label  for="Expiracion">Fecha de Vencimiento</label><br><br>
+      <input id="Fecha de Expiracion" type="date" class="casilla" name="Fecha de Expiración"><br><br>
+      <button id="validarNumber"> <span class="validarNumber"><strong>Validar</strong></span></button>
+    </div>
+    <!--  <br/>
+    <h2>¡Únete como Voluntario!</h2> -->
+     <!-- <h1>Cadena de favores     /     Chain of favours</h1>  -->
+    
+<!--     <h1> Tu aporte ayudará a la ejecución de un proyecto.</h1>
     <br/><br/>
     <br/><br/>
     <div style="text-align: center;color:black" >
       <input name1="button" style="margin-right: 200px;font-size:30px;background-color:white;" type="button" onclick="location.href='objetivosabrigo.html'" value="Un abrigo para Perú"> 
       <input name2="button" style="background-color:white;font-size:30px;" type="button" onclick="location.href='geo.html'" value="Primaria virtual"> 
       <br/><br/>
-      <br/><br/>
-      <br/><br/>
-      <p2>¡Tú tambien puedes ser parte de estos proyectos innovadores, o proponer un nuevo proyecto!</p2>
-      <br/><br/>
-      <input name3="button" style="background-color:papayawhip;font-size:25px;" type="button" onclick="location.href='geo.html'" value="Envía tus sugerencias o tu propuesta para evaluarla 
+      <input class="button3" name3="button" style="background-color:papayawhip;font-size:25px;" type="button" onclick="location.href='geo.html'" value="Envía tus sugerencias o tu propuesta para evaluarla 
       al correo: estefaniamr716@gmail.com">
-      <br/><br/>
-      <p3>(Cada idea o propuesta tendrá tú nombre o el de tu equipo de trabajo)</p3>
-      <br/><br/>
-      <p3>Respetamos el derecho de autor.</p3>
-  </div>     
+      <br/><br/> -->
+      
     <script src="index.js" type="module"></script>
+    <script type="module" src="./main.js"></script>
   </body>
+</div> 
 </html>
+<!-- class="imagen" -->
